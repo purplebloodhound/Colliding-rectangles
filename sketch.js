@@ -8,7 +8,8 @@ function setup() {
 
 function draw() {
   background(255,255,255);  
-  mixedrect.x = World.mouseX;
-  mixedrect.y = World.mouseY;
+  movingrect.x = World.mouseX;
+  movingrect.y = World.mouseY;
+
   drawSprites();
 }
