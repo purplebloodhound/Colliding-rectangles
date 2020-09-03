@@ -15,11 +15,11 @@ function draw() {
   if (movingrect.x - fixedrect.x === fixedrect.width/2 + movingrect.width/2 
     && fixedrec.x - movingrect.x === fixedrect.width/2 + movingrect.width/2 
     && movingrect.y - fixedrect.y === fixedrect.heigth/2 + movingrect.height/2
-    && fixedrect.y - movingrect.y === fixedrect.height/2 + movingrect.height/2){
+    && fixedrect.y - movingrect.y === fixedrect.height/2 + movingrect.height/2)
+    {
       fixedrect.shapeColor = "red";
       movingrect.shapeColor = "red";
     }
     else {fixedrect.shapeColor = "green"; movingrect.shapeColor = "green";}
   drawSprites();
 }
-
